@@ -2,6 +2,8 @@
 title: About me
 ---
 
+![myface](/img/ibiza-avatar.jpg)
+
 Hello! I'm Mateusz Nejman and here I will post my ideas and thoughts about tech problems I met.
 
 ### Some facts

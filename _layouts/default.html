@@ -9,6 +9,9 @@
     {% if page.indexing == false %}
       <meta name="robots" content="noindex">
     {% endif %}
+    {% if site.logo %}
+    <link rel="icon" type="image/png" href="{{ site.logo }}" />
+    {% endif %}
 
     {% if page.collectionpage %}
       {% seo title=false %}
@@ -30,14 +33,13 @@
         <link rel="preconnect" href="{{ url }}" crossorigin />
       {% endfor %}
     {% endif %}
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
     <meta name="theme-color" content="{{ site.manifest.theme_color | default: '#242e2b' }}"/>
-    <link rel="stylesheet" href="/js/highlightjs/styles/github.css">
-    <link rel="stylesheet" href="/js/highlightjs/styles/ssms.css" />
+    {% if site.styles %}
+      {% for url in site.styles %}
+        <link rel="stylesheet" href="{{ url }}">
+      {% endfor %}
+    {% endif %}
     
     {% if site.css_inline == true %}
       {% include site-styles.html %}
@@ -53,18 +55,13 @@
 
     {% include site-before-start.html %}
 
-     <!-- Begin highlight.js support -->
-  <script type="text/javascript" src="/js/highlightjs/highlight.min.js"></script>
-
-  <script type="text/javascript" src="/js/highlightjs/languages/cpp.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/csharp.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/json.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/markdown.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/plaintext.min.js"></script>
-  <script type="text/javascript" src="/js/highlightjs/languages/powershell.min.js"></script>
+    {% if site.scripts %}
+      {% for url in site.scripts %}
+        <script type="text/javascript" src="{{ url}}"></script>
+      {% endfor %}
+    {% endif %}
 
   <script type="text/javascript"> hljs.highlightAll(); </script>
-  <script src="//unpkg.com/darkreader@4.9.40/darkreader.js"></script>
   <!-- end highlight.js support -->
   </head>
 

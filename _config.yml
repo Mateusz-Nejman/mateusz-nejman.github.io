@@ -26,7 +26,24 @@ baseurl: ''
 title: 'Mateusz Nejman Blog'
 description: 'I am Mateusz Nejman and this is my personal place for sharing my ideas and knowledge with you'
 permalink: pretty
-
+logo: "/img/icon.png"
+fonts:
+  preconnect_urls:
+  - https://fonts.googleapis.com
+  - https://fonts.gstatic.com
+styles:
+- https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap
+- /js/highlightjs/styles/github.css
+- /js/highlightjs/styles/ssms.css
+scripts:
+- /js/highlightjs/highlight.min.js
+- /js/highlightjs/languages/cpp.min.js
+- /js/highlightjs/languages/csharp.min.js
+- /js/highlightjs/languages/json.min.js
+- /js/highlightjs/languages/markdown.min.js
+- /js/highlightjs/languages/plaintext.min.js
+- /js/highlightjs/languages/powershell.min.js
+- //unpkg.com/darkreader@4.9.40/darkreader.js
 # Pagination
 paginate: 5
 paginate_path: blog/page:num

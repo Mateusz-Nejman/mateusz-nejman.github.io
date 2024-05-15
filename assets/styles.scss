@@ -156,3 +156,12 @@ pre>code {
   border: 1px solid;
   text-align: center;
 }
+
+.logo img {
+  border-radius: 25%;
+}
+
+img[alt=myface] { 
+  max-width: 300px;
+  max-height: 300px;
+}
