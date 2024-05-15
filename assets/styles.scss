@@ -138,6 +138,19 @@ pre>code {
   opacity: 0.3;
 }
 
-.typeset h1, .typeset h2, .typeset h3 {
+.typeset h1, .typeset h2, .typeset h3, .typeset h4, .typeset h5, .typeset h6 {
   font-family: "Chakra Petch", sans-serif;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.typeset table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.typeset table th,td {
+  border: 1px solid;
+  text-align: center;
 }
