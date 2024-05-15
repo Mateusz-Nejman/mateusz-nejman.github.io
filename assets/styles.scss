@@ -94,6 +94,7 @@ pre>code {
 .feature .container p{
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 /* Post navigation links */
@@ -135,4 +136,8 @@ pre>code {
   transform: translateY(-50%);
   font-size: 2.5em;
   opacity: 0.3;
+}
+
+.typeset h1, .typeset h2, .typeset h3 {
+  font-family: "Chakra Petch", sans-serif;
 }
