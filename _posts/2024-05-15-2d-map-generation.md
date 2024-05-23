@@ -1,11 +1,8 @@
 ---
 title: 2D Map generation using noises
-feature_text: 2D Map generation using noises
-feature_image: "/img/banner.jpg"
-categories:
-- 2D
-- Map
-- Noises
+date: 2024-05-15
+categories: [2D, Map, Noises]
+tags: [2d, map, noises, monogame, tilemap]
 ---
 
 Today I will try to explain, how can you generate 2D tile map and what noises can be useful for this purpose.
