@@ -1,5 +1,6 @@
 ---
 title: Introduction
+description: Hello! I'm Mateusz Nejman and here I will post my ideas and thoughts about tech problems I met.
 date: 2024-05-14
 categories: [General]
 tags: [general]

@@ -1,5 +1,6 @@
 ---
 title: 2D Map generation using noises
+description: Today I will try to explain, how can you generate 2D tile map and what noises can be useful for this purpose.
 date: 2024-05-15
 categories: [2D, Map, Noises]
 tags: [2d, map, noises, monogame, tilemap]
@@ -8,7 +9,7 @@ tags: [2d, map, noises, monogame, tilemap]
 Today I will try to explain, how can you generate 2D tile map and what noises can be useful for this purpose.
 
 ### Noises
-I found, that a lot of games uses noises to generate maps instead of geting only random numbers. I will show you Perlin and Simplex noise, and how I used it in my game.
+I found, that a lot of games uses noises to generate maps instead of getting only random numbers. I will show you Perlin and Simplex noise, and how I used it in my game.
 
 ### Perlin Noise
 Perlin Noise is first noise I used for map generation. It was developed by Ken Perlin in 1983. I used it for generate terrain tiles, like stone, dirt and also small caves.
