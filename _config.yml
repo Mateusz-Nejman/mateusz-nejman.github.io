@@ -223,8 +223,3 @@ jekyll-archives:
 
 plugins:
   - jemoji
-
-tabs:
-- url: https://mateusz-nejman.com/piskel_touch/
-  icon: fas fa-hand-pointer
-  title: Piskel Touch
