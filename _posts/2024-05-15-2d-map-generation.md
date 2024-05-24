@@ -384,7 +384,7 @@ public static T Random<T>(this T[] array, Random random)
 ```
 
 ### Summary
-I hope this post is understandable. I'm trying my best to share my ideas with others :smile:
+I hope this post is understandable. I'm trying my best to share my ideas with others :smile: 
 
 ### Sources
 - <https://stackoverflow.com/questions/8659351/2d-perlin-noise>
