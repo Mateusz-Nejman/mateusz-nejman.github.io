@@ -35,7 +35,7 @@ Previously I worked on fork of Piskel app ([Mateusz-Nejman/piskel_touch](https:/
 
 ### Download
 <a href="https://apps.microsoft.com/detail/9nwzsx6x2bgx?mode=direct">
-	<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200"/>
+	<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Download from Microsoft Store" width="200"/>
 </a>
 
 [Github](https://github.com/Mateusz-Nejman/Pixed)
