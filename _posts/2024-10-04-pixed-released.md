@@ -23,10 +23,10 @@ Previously I worked on fork of Piskel app ([Mateusz-Nejman/piskel_touch](https:/
 - Avalonia [AvaloniaUI/avalonia](https://github.com/avaloniaui/avalonia)
 - Microsoft.Extensions.DependencyInjection [NuGet](https://www.nuget.org/packages/Microsoft.Extensions.DependencyInjection)
 - Newtonsoft.JSON [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)
-- PixiEditor.ColorPicker [PixiEditor/ColorPicker] (https://github.com/PixiEditor/ColorPicker)
-- System.Reactive (RX) [dotnet/reactive] (https://github.com/dotnet/reactive)
-- BigGustave [EliotJones/BigGustave] (https://github.com/EliotJones/BigGustave)
-- LZMA SDK [monemihir/LZMA-SDK] (https://github.com/monemihir/LZMASDK)
+- PixiEditor.ColorPicker [PixiEditor/ColorPicker](https://github.com/PixiEditor/ColorPicker)
+- System.Reactive (RX) [dotnet/reactive](https://github.com/dotnet/reactive)
+- BigGustave [EliotJones/BigGustave](https://github.com/EliotJones/BigGustave)
+- LZMA SDK [monemihir/LZMA-SDK](https://github.com/monemihir/LZMASDK)
 
 ### Screenshots
 
@@ -34,8 +34,7 @@ Previously I worked on fork of Piskel app ([Mateusz-Nejman/piskel_touch](https:/
 ![Pixed screenshot2](/img/2024-10-04-pixed/screenshot2.png "Screenshot 2")
 
 ### Download
-<a href="https://apps.microsoft.com/detail/9nwzsx6x2bgx?mode=direct">
-	<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Download from Microsoft Store" width="200"/>
-</a>
+
+[<img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Download from Microsoft Store">](https://apps.microsoft.com/detail/9nwzsx6x2bgx?mode=direct)
 
 [Github](https://github.com/Mateusz-Nejman/Pixed)
