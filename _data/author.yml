@@ -1,0 +1,15 @@
+name: Mateusz Nejman
+dp: img/ibiza-avatar.jpg
+description: "
+  <p>
+    Hello! I’m Mateusz Nejman and here I will post my ideas and thoughts about tech problems I met.
+  </p>
+"
+email: mateusz_nejman@hotmail.com
+contact:
+  - title: linkedin
+    url: https://www.linkedin.com/in/mateusz-nejman/
+  - title: github
+    url: https://github.com/Mateusz-Nejman
+  - title: email
+    url: mailto:mateusz_nejman@hotmail.com
