@@ -1,10 +1,28 @@
 ---
-layout: post
-title: Unmanaged memory in C#
-description: 'After few days fight, I think I understood a little bit unmanaged memory in C#'
-date: '2025-05-16T22:00:00.000Z'
-categories: 'Unmanaged,Pointers'
+'0':
+  key: layout
+  type: text
+  value: post
+'1':
+  key: title
+  type: text
+  value: Unmanaged memory in C#
+'2':
+  key: description
+  type: text
+  value: >-
+    After few days fight, I think I understood a little bit unmanaged memory in
+    C#
+'3':
+  key: date
+  type: date
+  value: '2025-05-16T22:00:00.000Z'
+'4':
+  key: categories
+  type: text
+  value: 'Unmanaged,Pointers'
 ---
+
 After few days fight, I think I understood a little bit unmanaged memory in C#, and I will try to share my knowledge with you.
 
 ### Why I used pointers in C#?
@@ -62,7 +80,7 @@ for(int offset = 0; offset < length; offset++)
 
 Okay, I added some values to array, but what with reading? Reading is possible using the same way like writing:
 
-```javascript
+```csharp
 int value = *(ptr + offset);
 
 ```
