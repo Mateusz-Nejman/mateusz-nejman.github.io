@@ -3,7 +3,7 @@ layout: post
 title: Unmanaged memory in C#
 description: After few days fight, I think I understood a little bit unmanaged memory in C#
 date: 2025-05-16
-categories: [Unmanaged, Pointers]
+categories: [Unmanaged, Pointers, C#]
 ---
 
 After few days fight, I think I understood a little bit unmanaged memory in C#, and I will try to share my knowledge with you.
