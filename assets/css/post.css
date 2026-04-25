@@ -21,26 +21,8 @@ body {
   background-color: var(--gray-5);
 }
 .content a {
-  color: cyan;
-  border-bottom: 1px solid cyan;
-}
-@media (prefers-color-scheme: light) {
-  .content a {
-    color: #1ebaba;
-    border-bottom: 1px solid #1ebaba;
-  }
-}
-[data-theme="light"] {
-  .content a {
-    color: #1ebaba;
-    border-bottom: 1px solid #1ebaba;
-  }
-}
-[data-theme="dark"] {
-  .content a {
-    color: cyan;
-    border-bottom: 1px solid cyan;
-  }
+  color: #039BE5;
+  border-bottom: 1px solid #039BE5;
 }
 header {
   padding: 2rem 0 4rem 0;
@@ -198,28 +180,9 @@ main {
   background: var(--gray-3);
 }
 
-@media (prefers-color-scheme: light) {
-  .content code,
-  .content pre {
-    color: var(--gray-5);
-    background: var(--gray-2_5) !important;
-  }
-}
-
-[data-theme="light"] {
-  .content code,
-  .content pre {
-    color: var(--gray-5);
-    background: var(--gray-2_5) !important;
-  }
-}
-
-[data-theme="dark"] {
-  .content code,
-  .content pre {
-    color: var(--white-2);
-    background: var(--gray-3);
-  }
+.content code, .content pre {
+  color: var(--white-2);
+  background: var(--gray-3);
 }
 
 /* lbox */

@@ -1,0 +1,27 @@
+<ul class="projects">
+  {% for item in include.projects %}
+
+    <li class="card">
+      <a href="{{ item.url }}">
+        <span class="header">
+          {{ item.title }}
+
+          {% if item.highlight %}
+            <mark>{{ item.highlight }}</mark>
+          {% endif %}
+
+        </span>
+
+        <hr />
+
+        {% if item.desc != false %}
+        <p class="body">
+          Stack: {{ item.stack }} <br/>
+          {{ item.desc }}
+        </p>
+        {% endif %}
+      </a>
+    </li>
+
+  {% endfor %}
+</ul>

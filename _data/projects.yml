@@ -1,0 +1,13 @@
+entries:
+  - title: Pixed
+    url: https://github.com/Mateusz-Nejman/Pixed
+    desc: Pixelart software
+    stack: C#, Avalonia, Skia and more libs
+  - title: Newtone
+    url: https://github.com/Mateusz-Nejman/Newtone
+    desc: My old Music App project for Android with music downloading
+    stack: Java (Prev C# + Xamarin)
+  - title: Xampp Control
+    url: https://github.com/Mateusz-Nejman/XamppControl
+    desc: Helpful Xampp controll application
+    stack: C# + WPF

@@ -4,6 +4,7 @@
   <body>
     <main>
       {% include header.html %} {% include bio.html %}
+      {% include projects.html projects=site.data.projects.entries %}
       <section class="articles">
         {% for post in site.posts %}
         <article class="article">

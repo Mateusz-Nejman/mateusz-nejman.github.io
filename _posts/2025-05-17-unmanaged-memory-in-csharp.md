@@ -150,7 +150,7 @@ unsafe class UnmanagedArray<T> : IEnumerable<T>, IDisposable where T : unmanaged
     }
     ~UnmanagedArray()
     {
-        Dispose(disposing: false);
+        Dispose();
     }
 
     public IEnumerator<T> GetEnumerator()
@@ -163,23 +163,13 @@ unsafe class UnmanagedArray<T> : IEnumerable<T>, IDisposable where T : unmanaged
         return GetEnumerator();
     }
 
-    protected virtual void Dispose(bool disposing)
+    public void Dispose()
     {
         if (!_disposed)
         {
-            if (disposing)
-            {
-            }
-
             Marshal.FreeHGlobal((IntPtr)_ptr);
-
             _disposed = true;
         }
-    }
-
-    public void Dispose()
-    {
-        Dispose(disposing: true);
         GC.SuppressFinalize(this);
     }
 }
